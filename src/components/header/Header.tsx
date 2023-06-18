@@ -29,9 +29,9 @@ const Header = () => {
                >
                   Home
                </Link>
-               {/* @ts-ignore */}
                <Styles.LinkWithIcon
-                  // component="button"
+                  //@ts-ignore
+                  component="button"
                   variant="h5"
                >
                   <span>Features</span>
