@@ -1,10 +1,11 @@
-import React from 'react';
+//@ts-ignore
 import { ReactComponent as PhoneIcon } from '../../assets/phone-icon.svg';
+//@ts-ignore
 import { ReactComponent as MailIcon } from '../../assets/mail-icon.svg';
+//@ts-ignore
 import { ReactComponent as GeoIcon } from '../../assets/geo-icon.svg';
 import * as Styles from './Footer.styles';
 import { footerData } from '../../data';
-import { Box } from '@mui/material';
 
 const Footer = () => {
   return (

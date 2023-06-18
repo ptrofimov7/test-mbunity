@@ -1,13 +1,21 @@
 import React from 'react';
-import { TextField, FormControlLabel, Box } from '@mui/material';
+import { TextField, FormControlLabel } from '@mui/material';
 import { radioData } from '../../data';
+//@ts-ignore
 import { ReactComponent as PhoneIcon } from '../../assets/phone-icon.svg';
+//@ts-ignore
 import { ReactComponent as MailIcon } from '../../assets/mail-icon.svg';
+//@ts-ignore
 import { ReactComponent as GeoIcon } from '../../assets/geo-icon.svg';
+//@ts-ignore
 import { ReactComponent as TwitterIcon } from '../../assets/twitter-icon.svg';
+//@ts-ignore
 import { ReactComponent as InstIcon } from '../../assets/instagram-icon.svg';
+//@ts-ignore
 import { ReactComponent as DiscordIcon } from '../../assets/discord-icon.svg';
+//@ts-ignore
 import { ReactComponent as TickIcon } from '../../assets/ticktock-icon.svg';
+//@ts-ignore
 import PlaneImg from '../../assets/plane.png';
 
 import * as Styles from './FormBlock.styles';

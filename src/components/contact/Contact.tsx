@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material"
 import * as Styles from './Contact.styles.tsx'
 import FormBlock from "../form/FormBlock.tsx"
 

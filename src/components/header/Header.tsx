@@ -2,8 +2,11 @@ import { Link } from '@mui/material';
 import * as Styles from './Header.styles.tsx'
 import {KeyboardArrowDown as KeyboardArrowDownIcon, Close as CloseIcon} from '@mui/icons-material';
 import { useState } from 'react';
+//@ts-ignore
 import { ReactComponent as CartIcon } from '../../assets/cart-icon.svg';
+//@ts-ignore
 import { ReactComponent as AvatarIcon } from '../../assets/avatar-icon.svg';
+//@ts-ignore
 import { ReactComponent as MenuIcon } from '../../assets/menu-icon.svg';
 
 const Header = () => {
@@ -26,8 +29,9 @@ const Header = () => {
                >
                   Home
                </Link>
+               {/* @ts-ignore */}
                <Styles.LinkWithIcon
-                  component="button"
+                  // component="button"
                   variant="h5"
                >
                   <span>Features</span>

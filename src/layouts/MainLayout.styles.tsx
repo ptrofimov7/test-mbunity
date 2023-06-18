@@ -8,7 +8,7 @@ export const MainLayout = styled(MUIBox)(({ theme }) => ({
    backgroundColor: theme.palette.background.default,
 }))
 
-export const Container = styled(MUIBox)(({theme}) => (
+export const Container = styled(MUIBox)(() => (
    {
       maxWidth: '1200px',
       margin: '0 auto'

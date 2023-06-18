@@ -1,4 +1,4 @@
-import { Link as MUILink, Box as MUIBox, Typography as MUITypography, styled } from '@mui/material'
+import { Link as MUILink, Box as MUIBox, styled } from '@mui/material'
 
 export const Container = styled(MUIBox)(({ theme }) => ({
   position: 'sticky',
@@ -106,7 +106,7 @@ export const MenuContainer = styled(MUIBox, {shouldForwardProp: prop => prop !==
   },
 }));
 
-export const IconsBlock = styled(MUIBox)(({ theme }) => ({
+export const IconsBlock = styled(MUIBox)(() => ({
   display: 'flex',
   alignSelf: 'center',
   alignItems: 'center',

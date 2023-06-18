@@ -57,7 +57,7 @@ export const ReachUsBlock = styled(MUIBox)(({ theme }) => ({
   },
 }));
 
-export const ReachUsTitle = styled(MUITypography)(({ theme }) => ({
+export const ReachUsTitle = styled(MUITypography)(() => ({
   fontWeight: 600,
   fontSize: '16px',
   lineHeight: '26px',
@@ -97,20 +97,20 @@ export const Info = styled(MUITypography)(({ theme }) => ({
   },
 }));
 
-export const Block = styled(MUIBox)(({ theme }) => ({
+export const Block = styled(MUIBox)(() => ({
   display: 'flex',
   flexDirection: 'column',
   gap: '20px',
 }));
 
-export const Item = styled(MUITypography)(({ theme }) => ({
+export const Item = styled(MUITypography)(() => ({
   fontWeight: 400,
   fontSize: '12px',
   lineHeight: '18px',
   textAlign: 'left',
 }));
 
-export const Title = styled(MUITypography)(({ theme }) => ({
+export const Title = styled(MUITypography)(() => ({
   fontWeight: 600,
   fontSize: '16px',
   lineHeight: '26px',
@@ -133,7 +133,7 @@ export const JoinBlock = styled(MUIBox)(({ theme }) => ({
   },
 }));
 
-export const JoinTitle = styled(MUITypography)(({ theme }) => ({
+export const JoinTitle = styled(MUITypography)(()=> ({
   fontWeight: 600,
   fontSize: '16px',
   lineHeight: '26px',
@@ -141,19 +141,19 @@ export const JoinTitle = styled(MUITypography)(({ theme }) => ({
 }));
 
 
-export const SubscribeFormBlock = styled(MUIBox)(({ theme }) => ({
+export const SubscribeFormBlock = styled(MUIBox)(() => ({
   margin: 'auto',
   width: '100%'
 }));
 
-export const SubscribeBlock = styled(MUIBox)(({ theme }) => ({
+export const SubscribeBlock = styled(MUIBox)(() => ({
   width: 'auto',
   height: '39px',
   display: 'flex',
   marginBottom: '20px',
 }));
 
-export const TextField = styled(MUITextField)(({ theme }) => ({
+export const TextField = styled(MUITextField)(() => ({
   flex: '1 1 40%',
   width: 'auto',
   height: '39px',
@@ -170,7 +170,7 @@ export const TextField = styled(MUITextField)(({ theme }) => ({
   },
 }));
 
-export const Button = styled(MUIButton)(({ theme }) => ({
+export const Button = styled(MUIButton)(() => ({
   flex: '0 1 105px',
   height: '39px',
   borderTopLeftRadius: '0',

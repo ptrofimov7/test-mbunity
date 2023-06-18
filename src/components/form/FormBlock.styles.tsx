@@ -198,10 +198,7 @@ export const InputsBlock = styled('div')(({ theme }) => ({
    display: 'flex',
    flexDirection: 'column',
    gap: '20px',
-   // '& .MuiFormControl-root': {
-   //    width: 'auto',
-   //    flex: '1 1 auto',
-   // },
+   
    [theme.breakpoints.up('md')]: {
       width: 'auto',
       display: 'flex',
@@ -298,7 +295,7 @@ export const RadioGroup = styled(MUIRadioGroup)(({ theme }) => ({
    },
 }));
 
-export const GreyCircle = styled('div')(({ theme }) => ({
+export const GreyCircle = styled('div')(() => ({
    backgroundColor: '#E0E0E0',
    width: '13px',
    height: '13px',
